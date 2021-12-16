@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <title>Personal web - contact form</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="script.js"></script>
+
+  </head>
+  <body>
+    <nav>
+            <div class="left">
+                <a href="https://navbar-and-layoutingg.richardo33.repl.co/"><img src="image/dumbways.png"></a>
+                <ul>
+                    <li>
+                        <a href="https://navbar-and-layoutingg.richardo33.repl.co/">Home</a>
+                    </li>
+                    <li>
+                        <a href="https://count-post-blog-time.richardo33.repl.co/?">Blog</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="right">
+                <a href="">Contact Me</a>
+            </div>
+    </nav>
+    <div class="card" >
+    <form action="" onsubmit="submitData(event)">
+      <div>
+        <label for="input-name">Name</label>
+        <input id="input-name" type="text" placeholder="Alexander">
+      </div>
+
+      <div>
+        <label for="input-email">Email</label>
+        <input id="input-email" type="email" placeholder="@gmail.com">
+        </div>
+
+      <div>
+        <label for="input-phone">Phone</label>
+        <input id="input-phone" type="tel" pattern="[0-9]{12,13}">
+      </div>
+
+      <div>
+       <label for="input-subject">Subject</label>
+        <select name="" id="input-subject">
+          <option></option>
+          <option>Frontend</option>
+          <option>Backend</option>
+          <option>DevOps</option>
+       </select>
+      </div>
+
+
+      <div>
+        <label for="input-message">Your Message</label>
+        <textarea name="" id="input-message" cols="30" rows="5"></textarea>
+      </div>
+     
+    
+      <button class="btn-outline" type="submit">submit</button>
+     
+    
+    
+    </form>
+
+    </div>
+
+  </body>
+</html>
