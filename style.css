@@ -4,7 +4,7 @@ body{
 
 nav {
     display: flex;
-    background-color: #6461a0;
+    background-color: #1d178a;
     height: 7vh;
 }
 
@@ -36,7 +36,7 @@ nav .right {
 }
 
 nav .right a {
-    background-color: #0a81d1;
+    background-color: #6461a0;
     color: white;
     padding: 10px 20px;
     border-radius: 30px;
@@ -116,13 +116,13 @@ input[type="checkbox"]{
 form .btn-outline{
   outline: none;
   display: block;
-  border: solid 1px ;
+  border: solid 1px #1d178a ;
   font-size: 23px;
   font-weight: 400;
   line-height: 1;
   padding: 10px 30px;
   border-radius: 10px;
-  background: #0a81d1;
+  background: white;
   color: black;
   cursor: pointer;
   transition: all 0.3s linear;
@@ -132,12 +132,12 @@ form .btn-outline{
 
 .btn-outline:hover,
 .btn-outline:focus{
-  background: #314cb6;
+  background: #1d178a;
   color: white;
 }
 
 .btn-outline:active{
-  background: #314cb6;
+  background: #1d178a;
   color: white;
 }
 
